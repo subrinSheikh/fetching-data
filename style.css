@@ -1,0 +1,84 @@
+@import url("https://fonts.googleapis.com/css2?family=Caveat+Brush&display=swap");
+
+#main {
+  /* border: 3px solid black; */
+  position: relative;
+  height: 95vh;
+  width: 75vw;
+  margin: auto 10vw;
+  overflow: scroll;
+  background-image: url("./img/istockphoto-1040045682-170667a.webp");
+  object-fit: fill;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 900px 900px;
+  box-shadow: -9px 9px 29px -9px rgba(5, 87, 37, 1);
+}
+body {
+  background-color: #e1dddd;
+}
+#heading {
+  font-family: "Caveat Brush", cursive;
+  font-weight: 900;
+  font-style: normal;
+  font-size: 15px;
+  top: 0.1%;
+  position: sticky;
+  z-index: 1;
+  /* border: 2px solid gray; */
+  /* height: 3vh; */
+}
+#heading h1 {
+  margin-top: -1px;
+  text-align: center;
+  /* border: 2px solid gray; */
+  background-color: #a3a1a1;
+  box-shadow: inset 8px -12px 15px 7px rgba(209, 205, 209, 1);
+}
+#map {
+  position: relative;
+  height: 35vh;
+  width: 60vw;
+  /* border: 2px solid beige; */
+  margin: auto 7vw;
+  /* background-color: rgba(163, 161, 161, 0.4);
+  backdrop-filter: blur(5px); */
+}
+img {
+  position: absolute;
+  height: 35vh;
+  width: 50vw;
+  margin: auto 5vw;
+  object-fit: fill;
+}
+#div2 {
+  margin-top: 59px;
+}
+.newDiv {
+  font-family: "Pangolin", cursive;
+  font-weight: 400;
+  font-style: normal;
+  /* box-shadow: inset 8px -12px 15px 7px rgba(209, 205, 209, 1); */
+  border-radius: 10px;
+  border: 2px solid rgba(163, 161, 161, 0.4);
+  margin: 2px;
+  padding-left: 30px;
+  /* background-color: rgba(2, 2, 2, 0.75);
+  backdrop-filter: blur(10px); */
+  background-color: rgba(163, 161, 161, 0.4);
+  backdrop-filter: blur(10px);
+}
+.infoDiv {
+  font-family: "Macondo", cursive;
+  font-weight: 400;
+  font-style: normal;
+  border: 2px solid rgb(8, 8, 8);
+  border-radius: 10px;
+  border: 2px solid rgba(163, 161, 161, 0.4);
+  margin: 2px;
+  padding-left: 30px;
+
+  background-color: rgba(163, 161, 161, 0.4);
+  backdrop-filter: blur(2px);
+  /* margin: 2px; */
+}
